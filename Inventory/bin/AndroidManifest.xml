@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inventory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.inventory.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.inventory.BarangActivity"
+            android:label="@string/title_activity_barang" >
+        </activity>
+        <activity
+            android:name="com.example.inventory.MasukActivity"
+            android:label="@string/title_activity_masuk" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.inventory.DaftarActivity"
+            android:label="@string/title_activity_daftar" >
+        </activity>
+        <activity
+            android:name="com.example.inventory.UbahBarangActivity"
+            android:label="@string/title_activity_ubah_barang" >
+        </activity>
+        <activity
+            android:name="com.example.inventory.TambahBarangActivity"
+            android:label="@string/title_activity_tambah_barang" >
+        </activity>
+        <activity
+            android:name="com.example.inventory.ListItemActivity"
+            android:label="@string/title_activity_list_item" >
+        </activity>
+    </application>
+
+</manifest>

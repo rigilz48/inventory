@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inventory</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_barang">Barang</string>
+    <string name="title_activity_masuk">Inventory</string>
+    <string name="title_activity_daftar">Daftar Akun Inventory</string>
+    <string name="title_activity_ubah_barang">Barang</string>
+    <string name="title_activity_tambah_barang">Tambah Barang</string>
+    <string name="title_activity_list_item">List Item</string>
+
+</resources>
